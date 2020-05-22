@@ -63,7 +63,7 @@ ON DELETE SET NULL;
 CREATE TABLE customers(
       companyID INT auto_increment,
       companyName VARCHAR(100) NOT NULL,
-      phoneNumber INT NOT NULL,
+      phoneNumber VARCHAR(70) NOT NULL,
       email VARCHAR(100) NOT NULL,
       neededEngineers INT,
       `location` VARCHAR(150) NOT null,
